@@ -19,7 +19,7 @@ after the above process
 open the terminal/Cmd, then by using CD command
 go to the SIQ_PE1_ParkingLot directory
 
-Same goes with repl.it
+Same goes with repl.it(Run Button will also work but it will take input.txt)
 Run the below commands in their console
 
 Now run the following commands to run the program
