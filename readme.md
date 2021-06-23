@@ -11,15 +11,21 @@ https://java.com/en/download/help/mac_install.html
 After Installing Java
 Install git or Download this repo as Zip file and use any zip Extractor such as WinRar,7zip
 to Extract files
+
 git install link -: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
+git commands to pull the files
+
+git clone git@github.com:sumitnathtiwari/Parkinglot.git
 
 after the above process
 
 open the terminal/Cmd, then by using CD command
-go to the SIQ_PE1_ParkingLot directory
+go to the Parkinglot directory
 
-Same goes with repl.it(Run Button will also work but it will take input.txt)
+cd Parkinglot
+
+Same goes with repl.it(Run Button will also work but by default will take input.txt as filepath)
 Run the below commands in their console
 
 Now run the following commands to run the program
@@ -28,7 +34,8 @@ Now run the following commands to run the program
 
 2.java src/Main.java src/input.txt
 
-For Windows 
+For Windows
+ 
 1.javac src\\*.java
 
 2.java src\\Main.java src\\input.txt
@@ -58,7 +65,7 @@ the system will give warning "Invalid command name please provide correct input"
 5.Assumed filepath must be provided and file must exist else the system will give warning as well as throw error and halt the execution of the program.
 
 6.Since no output provided in case no vehicle present 
-the system will output "No vehicle present for the given age"
+the system will output "No vehicle present for the given age"(commented out as per output file now it will only print new line)
 
 7.Assumed all the commands specified must be in proper format else system will give warning
 
