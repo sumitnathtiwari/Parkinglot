@@ -85,7 +85,9 @@ public class Commands {
             }
             System.out.println("");
         } else {
-            System.err.println("No vehicle present for the given age");
+            System.out.println("");
+            //commenting as Output file shows only empty line
+            //System.err.println("No vehicle present for the given age");
         }
     }
 
@@ -107,7 +109,9 @@ public class Commands {
             }
             System.out.println("");
         } else {
-            System.err.println("No vehicle slot present for the given age");
+          System.out.println("");
+            //commenting as Output file shows only empty line
+            //System.err.println("No vehicle slot present for the given age");
         }
     }
 
